@@ -11,56 +11,54 @@ This is a simple **Weather App** built with Python and Tkinter that allows users
 - **Python 3.x**
 - **Tkinter** (Pre-installed with Python)
 - **requests** library
-Setup
-Get an API Key:
 
-Go to OpenWeatherMap and sign up to get an API key.
-After logging in, go to API Keys and generate a new key.
-Add Your API Key to the Code:
+## Install Required Libraries
+To install the required libraries, run the following command:
+```bash
+  pip install requests
+```
+## Setup
+  - Get an API Key:
+  - Go to [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) and sign up to get an API key.
+     - After logging in, go to [API Keys](https://home.openweathermap.org/api_keys) and generate a new key.
 
-Replace the placeholder your_actual_api_key_here with your generated API key in the code.
-python
-Copy
-Edit
-API_KEY = "your_actual_api_key_here"
-Run the Application:
+  - Add Your API Key to the Code:
+      - Replace the placeholder `your_actual_api_key_here` with your generated API key in the code:
+        ```python
+        API_KEY = "your_actual_api_key_here"
+        ```
 
-After setting up the API key, run the following command:
-bash
-Copy
-Edit
-python weather_app.py
-Enter a City Name:
+  - Run the Application:
+      - After setting up the API key, run the following command:
+        ```bash
+        python weather_app.py
+        ```
 
-Enter the name of a city (e.g., "London") and click on Get Weather to see the weather data.
+  - Enter a City Name:
+      - Enter the name of a city (e.g., "London") and click on **Get Weather** to see the weather data.
 
-How It Works
-The app takes a city name as input.
-It sends a request to the OpenWeatherMap API with the city name and your API key.
-The response contains data about the weather in that city, including temperature and weather description.
-The app displays this information in the GUI.
-Sample Output
-City: London
-Temperature: 15°C
-Condition: Clear sky
-Troubleshooting
-1. Invalid API Key:
-Ensure the API key is correctly copied from OpenWeatherMap and there are no extra spaces.
-2. City Not Found:
-Double-check the spelling of the city.
-Try entering the city with the country code, like "London,GB".
-License
-This project is open-source and available under the MIT License.
+## How_it_works
+  - The app takes a city name as input.
+  - It sends a request to the **OpenWeatherMap API** with the city name and your API key.
+  - The response contains data about the weather in that city, including temperature and weather description.
+  - The app displays this information in the GUI.
 
-Author
-Your Name or Your GitHub Username
+## Sample Output
+  - City: London
+  - Temperature: 15°C
+  - Condition: Clear sky
 
-yaml
-Copy
-Edit
+## Troubleshooting
+  - Invalid API Key:
+      - Ensure the API key is correctly copied from OpenWeatherMap and there are no extra spaces.
+  
+  - City Not Found:
+      - Double-check the spelling of the city.
+      - Try entering the city with the country code, like "London,GB".
 
----
+## License
+  - This project is open-source and available under the MIT License.
 
-You can copy the above YAML code into your **`README.md`** file.
+## Author
+  - AnupamaUshetti
 
-Let me know if you need any changes or additional help! 😊
